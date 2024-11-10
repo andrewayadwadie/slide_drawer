@@ -72,8 +72,7 @@ class SlideDrawerContainer extends StatelessWidget {
                   : BoxDecoration(color: backgroundColor ?? theme.primaryColor),
               child: SafeArea(
                 child: Theme(
-                  data: ThemeData(
-                      brightness: brightness ?? theme.primaryColorBrightness),
+                  data: ThemeData(brightness: brightness ?? theme.brightness),
                   child: Column(
                     mainAxisAlignment: _isAlignTop
                         ? MainAxisAlignment.start
